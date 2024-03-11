@@ -1,1 +1,51 @@
 /* your code here */
+body{
+	margin:0;
+	padding:10%;
+	background-color:mediumspringgreen;
+}
+.product{
+	display:flex;
+	justify-content:center;
+	gap:5%;
+}
+.product > div{
+	width:30%
+}
+.product__container{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+.photo-main{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+.photo-main >img{
+	
+}
+.controls{
+	display:flex;
+	justify-content:space-between
+}
+
+.photo-album > ul{
+	display:flex;
+	justify-content:space-around;
+	list-style:none;
+}
+.photo-album > ul > li > img{
+	width:90%;
+	border:1px solid gray;
+}
+.variant > ul{
+	display:flex;
+	justify-content:space-around;
+	list-style:none;
+	
+}
+.variant > ul > li > img{
+	width:90%;
+	border:1px solid gray;
+}
