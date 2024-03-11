@@ -49,3 +49,10 @@ body{
 	width:90%;
 	border:1px solid gray;
 }
+button{
+	background-color:red;
+	color: white;
+	border-radius:6px;
+	border: none;
+	padding: 10px 20px
+}
